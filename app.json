@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Greenexops",
+    "slug": "greenexops",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.calvarle.greenexops"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.calvarle.greenexops"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a59ba703-d4e4-48d7-81ea-9d283c1d53e0"
+      }
+    },
+    "owner": "calvarle",
+    "updates": {
+      "url": "https://u.expo.dev/a59ba703-d4e4-48d7-81ea-9d283c1d53e0"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
